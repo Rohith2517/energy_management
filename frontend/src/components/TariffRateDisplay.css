@@ -1,0 +1,60 @@
+/* General container styling */
+/* TariffRateDisplay.css */
+.container {
+    background-color: #561856; /* Sky blue color */
+    /*border: 1px solid #ccc; Optional: Border for visibility */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Inner padding */
+    width: 60%; /* Adjust width (e.g., 60% of the parent) */
+    height: auto; /* Adjust height (auto adjusts to content) */
+    max-width: 800px; /* Optional: Max width */
+    margin: 0 auto 0 0; /* Center the container */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Optional: Shadow for effect */
+    left: 0;
+    position: absolute;
+}
+
+
+/* Title styling */
+.title h2 {
+    font-size: 2em;
+    color: #c9ba14;
+    margin-bottom: 20px;
+    margin-top: -20px;
+}
+
+/* Box to hold all cards */
+.box {
+    display: flex;
+    gap: 20px;
+}
+
+/* Individual card styling */
+.card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 200px;
+    transition: transform 0.3s ease;
+    
+}
+
+/* Hover effect on cards */
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Headings in the cards */
+.card h3 {
+    margin-bottom: 10px;
+    color: #1976d2;
+    font-size: 1.5em;
+}
+
+/* Paragraph styling */
+.card p {
+    font-size: 1.2em;
+    color: #555;
+}
